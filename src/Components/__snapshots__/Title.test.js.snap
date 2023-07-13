@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar sticky-top"
+  >
+    <div
+      class="container-fluid"
+    >
+      <h4
+        class="text-light mx-auto"
+      >
+        Infinite Scroll
+      </h4>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
