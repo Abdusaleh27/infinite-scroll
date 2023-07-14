@@ -61,7 +61,11 @@ const ImagesRenderer = () => {
       >
         {photos.length > 0 ? (
           <div data-testid="gallery">
-            <Gallery photos={photos} data-testid="photo-gallery" />
+            <Gallery
+              photos={photos}
+              data-testid="photo-gallery"
+              direction={"column"}
+            />
           </div>
         ) : loading ? (
           <p data-testid="ApiCall">Fetching Data ...</p>
