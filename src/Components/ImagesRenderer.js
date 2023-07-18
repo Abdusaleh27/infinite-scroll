@@ -6,7 +6,7 @@ import Gallery from "react-photo-gallery";
 
 const url = "https://api.unsplash.com//photos/random?client_id=";
 const id = "a22f61e98da4efa25d8860e77a91a596867dd335ecdf7feb12e086943db9565a";
-const numOfImages = 20;
+const numOfImages = 50;
 
 const ImagesRenderer = () => {
   const [photos, setPhotos] = useState([]);
